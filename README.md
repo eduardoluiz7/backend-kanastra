@@ -31,6 +31,10 @@ backend-kanastra/
   ```bash
     docker-compose down
   ```
+  - Iniciar worker do rq
+  ```bash
+    docker-compose exec django python manage.py rqworker default
+  ```
 
   #### Usando Makefile
   - Construir e iniciar os containers
@@ -45,6 +49,10 @@ backend-kanastra/
   - Para ver a lista de comandos disponíveis
   ```bash
     make help
+  ```
+  - Iniciar worker do rq
+  ```bash
+    make rq
   ```
 
 ### Dependências
