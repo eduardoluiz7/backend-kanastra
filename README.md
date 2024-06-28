@@ -52,7 +52,7 @@ backend-kanastra/
   ```
   - Iniciar worker do rq
   ```bash
-    make rq
+    make start_rq_worker
   ```
 
 ### Dependências
